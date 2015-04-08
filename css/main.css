@@ -10,11 +10,10 @@ html {
 }
 
 .masthead {
-  padding-top: 0.5em;
   background-image: url("../images/logo.svg"), url("../images/logo.svg"), url("../images/subtle_white_mini_waves.jpg");
-  background-size: 75px auto, auto;
+  background-size: 65px auto, 65px auto, auto;
   background-repeat: no-repeat, no-repeat, repeat;
-  background-position: center center, left top;
+  background-position: left center, right center, left;
   text-align: center;
   color: #512200;
   font-size: 2em;
@@ -22,6 +21,7 @@ html {
 
 h1 {
   margin: 0;
+  padding: 0.25em;
 }
 
 nav {
@@ -40,36 +40,29 @@ nav li {
   text-align: left;
   float: left;
   width: 25%;
-  background-color: #512200;
+  background-color: rgba(81, 34, 0, 0.5);
   text-align: center;
 }
 
 nav a {
-  padding: 0.5em;
+  padding: 0.25em;
   margin: 0em;
   color: #fff;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 700;
   display: block;
 }
 
 nav a:hover {
-  background-color: #512200;
-}
-
-img {
-  display: block;
+  background-color: rgba(81, 34, 0, 0.5);
 }
 
 .banner {
   width: 100%;
   margin: 0;
   position: relative;
-}
-
-.image1 {
-  position: relative;
+  background-color: linear-gradient(to bottom, rgba(0, 0, 0, 0.5);, rgba(0, 0, 0, 0));
 }
 
 h2 {
@@ -85,46 +78,87 @@ h2 {
   transform: translateX(50%);
 }
 
-.line {
-  margin: 0;
+.image1 {
+  position: relative;
 }
 
-.left {
+img {
+  margin: 0;
+  padding: 0;
+}
+
+.left1 {
   width: 50%;
-  float: left:
-  margin: 0;
+  padding: 0;
 }
 
-.right {
+.right1 {
   width: 50%;
-  float: right;
-  margin: 0;
+  padding: 0;
+  float: left;
 }
 
-.btn {
+.image {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.btn-right {
   display: inline-block;
-  padding: 1em 2em;
+  position: absolute;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  padding: 1.5em, 1.5em;
   text-decoration: none;
-  font-size: 1em;
-  font-weight: 400;
+  font-size: 2em;
+  font-weight: 200;
   color: #fff;
   background-color: #6FC000;
   border-radius: 15px;
   background-image: linear-gradient(to bottom, #6FC000, #388200);
+  right: 25%;
+  bottom: 20px;
 }
+
+.btn-left {
+  display: inline-block;
+  position: absolute;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  padding: 1.5em, 1.5em;
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: 200;
+  color: #fff;
+  background-color: #6FC000;
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom, #6FC000, #388200);
+  right: 75%;
+  bottom: 20px;
+}
+
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 footer {
-  background-color: #512200;
+  background-color: rgba(81, 34, 0, 0.5);
   clear: both;
-  opacity: 0.4;
-  filter: alpha(opacity=40);
-
 }
 
 .beetle {
-  width: 75px;
+  width: 40px;
+  margin: 1em;
+  position: absolute;
+  right: 50%;
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+main {
+  margin: 0;
+  padding: 0;
 }
