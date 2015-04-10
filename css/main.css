@@ -21,8 +21,9 @@ h1 {
   background-size: .8em auto, .8em auto;
   width: 95%;
   margin: 0 auto;
+  padding: 0.10em;
   color: #512200;
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
 }
 
@@ -41,6 +42,8 @@ nav ul {
 
 nav li {
   text-align: left;
+  font-size: 1.5rem;
+  font-weight: 600;
   float: left;
   padding: .5em;
   box-sizing: border-box;
@@ -70,7 +73,7 @@ nav li:hover {
   color: white;
   font-size: 1.5em;
   font-weight: 600;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
   width: 100%;
   text-align: center;
   background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5));
